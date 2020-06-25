@@ -8,7 +8,7 @@ header{
     background-color: #3d3d3d;
   }
 
-  nav{
+nav{
     /* padding-left: 40vw; */
       /* left: 0; */
       max-width: 50%;
@@ -27,3 +27,44 @@ header{
       color: white;
       text-decoration: none;
     }
+
+.centered{
+        /* margin-top: 50px; */
+        position: relative;
+        width: 100%;
+        height:310px;
+        /* transform: translate(-50%,-50%); */
+        /* background-image: url("https://claudioustours.co.ke/wp-content/uploads/2020/05/11-Days-Bush-Beach-Holiday-Tour1.jpeg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+        .centered img{
+            width:100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+      
+        } 
+        .about-wrapper{
+      
+            position: absolute;
+            top:25px;
+            left: 25px;
+            right: 25px;
+        }
+        .about-header{
+            font-size: 40px;
+            font-family:Luminari, fantasy;
+            color: violet;
+            text-align: center;
+        }
+        .about-description{
+            /* position: absolute; */
+            /* top: 100px; */
+      
+                font-size:30px;
+                font-family: Bradley Hand, cursive;
+                color: yellow;
+                text-align: center;
+        }    
