@@ -7,3 +7,23 @@ header{
     /* height:120px !important; */
     background-color: #3d3d3d;
   }
+
+  nav{
+    /* padding-left: 40vw; */
+      /* left: 0; */
+      max-width: 50%;
+      color:white;
+      height: 100%;
+    }
+    nav>ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    nav>ul>li{
+      list-style: none;
+    }
+    li>a{
+      color: white;
+      text-decoration: none;
+    }
