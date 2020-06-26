@@ -18,7 +18,7 @@
                     <a href="#about">About us</a>
                 </li>
                 <li>
-                    <a href="#activities">Destinations</a>
+                    <a href="#services">Services</a>
                 </li>
                 <li>
                     <a href="#contacts">Contacts</a>
@@ -29,8 +29,8 @@
     </header>
 
     <div class="centered">
-        <img src="https://images.unsplash.com/photo-1496947850313-7743325fa58c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60")
-            height="310px">
+        <!-- <img src="Images/safaritruck.jpg")
+            height="310px"> -->
 
         <div class="about-wrapper">
 
@@ -40,12 +40,32 @@
         </div>
     </div>
 
+    <div class="form">
+        <form action="/action_page.php" class="container">
+          <p>SIGN IN</p>
+      <div class="input-wrapper">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+      </div>
+         <div class="input-wrapper">
+            <label for="psw">Password</label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+         </div>
+          
+      <div class="input-wrapper">
+        <button type="submit" class="btn">Login</button>
+      </div>
+         
+        </form>
+      </div>
+
     <div class="about" style="text-align: center;">
-        <h3 style="text-align: center;">About Us</h3>
+        <h2 style="text-align: center; color: brown;">About Us</h2>
         <div>
 
             <p><i>Novaya Safaris, make memories with the little time you have.</i></p>
-            <p style="text-align: center;">
+            <p style="text-align: center; color: snow;">
                 Novaya Safaris is a member of the travels and business events industry providing clients with complete
                 travels related services and events management services.
                 Novaya Safaris guarantees a level of service that exceeds clients expectations, giving each event the
@@ -63,68 +83,89 @@
 
         </div>
     </div>
+    
+   
     <div id="services">
         <h2>Main services we offer</h2>
             <p>Our Core services are;</p>
-            <div class="circle-shape">
+            <!-- <div class="circle-shape"> -->
+                <div class="hotel">
                 <h3>Hotel Reservation</h3>
-                    <p>
+              
+                    <p style="color: snow;">
                        Quick and Easy Hotel Bookings.
                        Discover great hotel prices while planning the right reservations at the best resorts, even if you need last minute rates.
                        We organise different beach holidays on the coastal beaches at the Kenyan Coast. 
                        Our offers take you to the best Kenyan beaches at the coast, unsullied and unpolluted.
                        You can also opt to combine wildlife safari in Kenyan Safari Parks with a beach holiday at the end of your safari.
                      </p>
+                     <div>
+                         <img src="/Images/hotel.jpg" alt="hotel" width="500" height="300">
+                     </div>
             </div>
-            <div class="circle-shape">
+        </div>
+            <!-- <div class="circle-shape"> -->
                 <h3>Air Ticketing</h3>
-                <p>
+                <p style="color: snow;">
                     Whether domestic or international travel, Akothee Safaris brings you reliable air ticketing on the fly.
                     We search every major airline to facilitate air ticket booking for both domestic and international flights. 
                     Do you want to make a one way trip? Do you want to fly to multiple destinations? Do you want to do round trip? Contact Us to today?  
                 </p>
-            
+                <div class="ticket">
+                    <img src="/Images/Airplane.jpg" alt="hotel" width="500" height="300">
+                </div>
             </div>
-            <div class="circle-shape">
+            <!-- <div class="circle-shape"> -->
                 <h3>Transport Rental</h3>
-                <p>
+                <p style="color: snow;">
                     We offer a reliable and proven range of vehicles for hire, at competitive prices. 
                     We offer car hire in Mombasa, Kenya as well as East Africa. Vehicles range from small saloon vehicles to buses and four wheel drives, on self drive and chauffeur driven.
                     Contact Us for your rental needs.
                 </p>
-            
+               <div class="trans">
+                   <img src="/Images/hire-car-masai-mara.jpg" alt="hire car mara" width="500" hight="300">
+               </div>
             </div>
-            <div class="circle-shape">
-                <h3>Kenya Travel Guide</h3>
-                <p>
-                    Kenya is a top wildlife destination, recommended especially for those taking a first time safari. 
-                    The Masai Mara offers excellent big cat encounters and is the setting for the yearly  wildebeest migration.
-                    Palm-lined beaches offer a perfect place to relax after an action packed safari. Pros and Cons Excellent wildlife viewing, including the annual wildebeest.
-                </p>
-            </div>
-            <div class="circle-shape">
-                <h3>Tailor-made Safari</h3>
-                <p>
-                    You are welcome to combine our routine Safaris with a tailor-made travel plan just to fit your taste and budget.
-                    Our representatives will respond and discuss with you on your submitted plan.
-                </p>
-            </div>
-         </div>
-
-         <div class="container">
-            <form>
-            
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
           
+           <div class="row">
+            <div class="gallery">  <h2>Gallery</h2> </div>
+            <div class="column">
               
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit Message">
-          
-            </form>
-          </div>
-         
+            <img src="Images/meru national park.jpg" alt="bikes" height="300px" width="300px"> 
+            </div>
+
+            <div class="column">
+            <video height="300px" width="300px" loop autoplay muted>    
+            <source src="/videos/Beautiful World - Wild Animals (Petar Milinković - Ashes Of Stars) [Short Film].mp4" alt="video/mp4" height="300px" width="300px">
+                Your browser does not support the video tag.
+                </video>
+        </div>
+
+        <div class="column">
+            <img src="Images/jairph-pL2dx4xrSKI-unsplash.jpg" alt="scenery" height="300px" width="300px">   
+        </div>
+
+        <div class="column1">
+            <img src="/Images/hotel2.jpg" alt="scenery" height="300px" width="300px">   
+        </div>
+
+        <div class="column2">
+            <video height="300px" width="300px" loop autoplay muted>    
+                <source src="/videos/JA Manafaru Hotel Review 2020 - Hotels de Reve (MALDIVES).mp4" alt="video/mp4" height="300px" width="300px">
+                    Your browser does not support the video tag.
+                    </video>
+        </div>
+
+        <div class="column3">
+            <img src="/Images/beautiful2.jpg" alt="scenery" height="300px" width="300px">   
+        </div>
+       
+        <div class="text"> 
+            <p style="color: darkred;">Above is just a glimpse of shots taken  during our various activities.</p>
+           
+    </div>
+
+  
 </body>
 </html>

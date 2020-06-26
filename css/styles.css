@@ -1,13 +1,20 @@
+body{
+  background-image: url(/Images/serengeti.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  vertical-align: bottom;
+  background-position: center;
+
+} 
 header{
-    /* top: 0; */
+    
     width : 100%;
     padding:10px;
-    /* position:fixed; */
+    position:sticky;
   
     /* height:120px !important; */
-    background-color: #3d3d3d;
-  }
-
+    /* background-color: dimgrey; */
+}
 nav{
     /* padding-left: 40vw; */
       /* left: 0; */
@@ -29,12 +36,12 @@ nav{
     }
 
 .centered{
-        /* margin-top: 50px; */
+        
         position: relative;
         width: 100%;
         height:310px;
         /* transform: translate(-50%,-50%); */
-        /* background-image: url("https://claudioustours.co.ke/wp-content/uploads/2020/05/11-Days-Bush-Beach-Holiday-Tour1.jpeg"); */
+        /* background-image: url(); */
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -56,7 +63,7 @@ nav{
         .about-header{
             font-size: 40px;
             font-family:Luminari, fantasy;
-            color: violet;
+            color: mediumblue;
             text-align: center;
         }
         .about-description{
@@ -70,15 +77,10 @@ nav{
         }    
 .about{
 
-            /* display:block;
-            position:relative;
-              width: 800px;
-              height: auto;
-              float: left;
-              padding: 80px;
               font-family: 'Open Sans Condensed', sans-serif;
-              font-size: 20px;
-              text-decoration: #666; */
+              font-size: 16px;
+              
+            
               
           }        
 
@@ -86,7 +88,7 @@ nav{
             width: 300px;
             height: 300px;
             padding: 45px;
-            background-color: lightskyblue;
+            background-color: green;
             border-radius: 75px;
             border: 7px solid #e9e9e9;
             box-shadow: 0px 15px 10px -10px #666;
@@ -97,48 +99,161 @@ nav{
           }
           #services h2{
             font-size: 30px;
-          }      
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+          }    
+  
+          /* .bg-img {
+             */
+            /* The image used */
+            /* background-image: url("/Images/BG.jpg"); */
+          
+            /* Control the height of the image */
+            /* min-height: 80px;
+              */
+          
+            /* Center and scale the image nicely */
+            /* background-position: center;
+            background-repeat: no-repeat;
+            background-size: 300px;
+            position: relative; */
+          /* } */
+          
+          /* Add styles to the form container */
+          .form {
+            /* display: flex;
+            position: absolute;
+            float: right; */
+            /* right: 0px; */
+            margin:auto;
+            max-width: 300px;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 5px 5px 5px grey;
+          }
+          .form .container h1{
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            padding-bottom: 10px;
+
+          }
+          .form .input-wrapper{
+            display: flex;
+            flex-direction: column;
+            padding: 0 15px 15px 15px;
+          }
+          .form .input-wrapper:first-child{
+            padding-bottom:15px ;
+          }
+          /* Full-width input fields */
+            input[type=text], input[type=password] {
+            width: 100%;
+            /* padding: 15px;
+            margin: 5px 0 22px 0; */
+            padding: 16px 0;
+            padding-left: 10px;
+            border: none;
+            background: #f1f1f1;
+          }
+
+          .input-wrapper label{
+            padding-bottom: 10px;
+            font-weight: 400;
+          }
+          
+          input[type=text]:focus, input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+          }
+          
+          /* Set a style for the submit button */
+          .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+          }
+          
+          .btn:hover {
+            opacity: 1;
+          }        
+/* #gallery{
+            position: relative;
+            display:inline;
+            clear: right;
+           
+          } */
+      
+.row {
+            display: flex;
+            border-top: 50%;
+            position: absolute;
+            width: 1105px;
+            height: 425px;
+            top: 2300px;
+            border-style: hidden;
+            left: 23px;
+            
+          }
+          
+.column {
+         
+            flex: 33.33%;
+            padding: 5px;
+            
+            /* clear: both; */
+
+}
+/* .column img{
+  float: right;
+} */
+
+.gallery{
+  position: absolute;
+  text-align: left;
+  width: 1080px;
+  height: 425px;
+  top: -60px;
+  border-style: hidden;
+  
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.column1{
+  position: absolute;
+  width: 1105px;
+  height: 425px;
+  top: 400px;
+  border-style: hidden;
+  left: 2px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
+.column3{
+  position: absolute;
+  width: 1105px;
+  height: 425px;
+  top: 400px;
+  border-style: hidden;
+  left: 745px;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.column2{
+  position: absolute;
+  width: 1105px;
+  height: 425px;
+  top: 400px;
+  border-style: hidden;
+  left: 385px;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.text{
+  position: absolute;
+            width: 1105px;
+            height: 425px;
+            top: 700px;
+            border-style: hidden;
+            left: 20px;
+            font-size: 20px;
 }
+
