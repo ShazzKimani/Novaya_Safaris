@@ -1,3 +1,4 @@
+*{overflow-x:hidden;}
 body{
   background-image: url(Images/serengeti.jpg);
   background-size: cover;
